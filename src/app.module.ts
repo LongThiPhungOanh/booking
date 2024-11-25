@@ -20,7 +20,7 @@ import * as path from 'node:path';
     I18nModule.forRoot({
       fallbackLanguage: 'vi',
       loaderOptions: {
-        //path: path.join(__dirname, '/i18n'),
+        path: ('D:\\traning\\booking\\src\\i18n'),
         watch: true,
       },
       resolvers: [
