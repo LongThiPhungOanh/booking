@@ -10,7 +10,7 @@ import {
   I18nModule,
   QueryResolver,
 } from 'nestjs-i18n';
-import * as path from 'node:path';
+import * as path from "node:path";
 
 @Module({
   imports: [
@@ -20,7 +20,7 @@ import * as path from 'node:path';
     I18nModule.forRoot({
       fallbackLanguage: 'vi',
       loaderOptions: {
-        path: ('D:\\traning\\booking\\src\\i18n'),
+        path: path.join(__dirname, '/i18n'),
         watch: true,
       },
       resolvers: [

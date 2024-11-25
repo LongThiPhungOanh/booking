@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="booking@pktwd-db.cdys6qqusn8z.ap-southeast-1.rds.amazonaws.com" uuid="6a817d7e-b027-4cc5-ab72-ffa2dc3f88d9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://pktwd-db.cdys6qqusn8z.ap-southeast-1.rds.amazonaws.com:3306/booking</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
